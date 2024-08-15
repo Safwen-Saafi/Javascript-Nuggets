@@ -12,12 +12,7 @@ const people = [
 
 
 // filter
-const youngPeople = people.filter((person) => {
-  // if (person.age < 30) {
-  //   return person;
-  // }
-  return person.age <= 25;
-});
+const youngPeople = people.filter((person) =>  person.age <= 25);
 console.log(youngPeople);
 
 const developers = people.filter((person) => person.position === 'developer');
@@ -42,5 +37,5 @@ console.log(randomPerson);
 const anna = people.filter((person) => person.name === 'anna');
 console.log(anna);
 
-console.log(peter.position);
-console.log(anna[0].position);
+console.log(peter.position);  //Find is an object
+console.log(anna[0].position); //Filter is an array
