@@ -7,7 +7,7 @@ const cart = [
     amount: 1,
   },
   {
-    title: "google pixel ",
+    title: "google pixel 7pro",
     price: 499.99,
     amount: 2,
   },
@@ -67,3 +67,21 @@ const fetchRepos = async () => {
 };
 
 fetchRepos();
+
+
+
+
+// Array of objects
+const orders = [
+  { id: 1, item: 'Laptop', quantity: 2, price: 1000 },
+  { id: 2, item: 'Phone', quantity: 1, price: 500 },
+  { id: 3, item: 'Tablet', quantity: 3, price: 250 },
+];
+
+// Use reduce to calculate the total revenue
+// order is an object from orders
+const totalRevenue = orders.reduce((accumulator, order) => {
+  return accumulator + order.quantity * order.price;
+}, 0);
+
+console.log(totalRevenue); // Output: 3250

@@ -6,16 +6,20 @@ const bob = {
   city: 'chicago',
   siblings: {
     sister: 'jane',
+    brother: 'ilyes'
   },
 };
+
+
 const {
   first: firstName,
   last,
   city,
   zip,
-  siblings: { sister: favoriteSibling },
+  siblings: { sister: favoriteSibling, brother: favouriteBrother },
 } = bob;
-console.log(firstName, last, city, zip, favoriteSibling);
+
+console.log(firstName, last, city, zip, favoriteSibling, favouriteBrother);
 
 // const firstName = bob.first;
 // const lastName = bob.last;
@@ -24,7 +28,7 @@ console.log(firstName, last, city, zip, favoriteSibling);
 // console.log(firstName,lastName,sister);
 
 function printPerson({first, last, city, siblings: {sister}}) {
-  //console.log(person.first);
+  // console.log(person.first);
   console.log(first, last, city, sister)
 }
 

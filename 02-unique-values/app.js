@@ -27,11 +27,13 @@ const menu = [
 ];
 // const categories = ['all', ...new Set(menu.map((item) => item.category))];
 // map - get all instances
-// new Set - narrow down
+// new Set - narrow down to only unique values
 // ['all',...] - turn it back to array
 
 const categories = ['all', ...new Set(menu.map((item) => item.category))];
 console.log(categories);
+const names = ['saf',...new Set(menu.map((item) => item.name))];
+console.log(names);
 
 const result = document.querySelector('.result');//target the div result
 result.innerHTML = categories.map((category) => {

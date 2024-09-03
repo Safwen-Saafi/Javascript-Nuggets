@@ -34,3 +34,10 @@ getAverage(person.name,67,78,89,78)   //This line is with the rest operator, in 
 
 // const testScores = [67, 78, 99, 100];  //When declaring the testScores array and then invoke it in the function, we use the spread operator
 // getAverage(person.name, ...testScores);
+
+
+
+
+// Key Differences:
+// Spread Operator: Expands or spreads elements, useful for copying, combining, or passing elements as separate arguments.
+// Rest Operator: Collects or condenses elements, useful for handling an indefinite number of arguments or extracting parts of an array or object.

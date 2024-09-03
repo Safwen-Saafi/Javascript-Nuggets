@@ -9,7 +9,7 @@ const fruit3 = fruits[2];
 
 console.log(fruit1, fruit2, fruit3);
 
-const [john, peter, , anna, kelly, susan] = friends;
+const [john, peter, ,anna, kelly, susan] = friends;
 
 console.log(john, peter);
 console.log(john, peter, anna, kelly);
