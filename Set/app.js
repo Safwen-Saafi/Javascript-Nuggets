@@ -39,7 +39,4 @@ const result = document.querySelector('.result');//target the div result
 result.innerHTML = categories.map((category) => {
   return `<button>${category}</button>`;
 }).join('');
-
-
-
-  // Set returns unique values of categories
+// Set returns unique values of categories

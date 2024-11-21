@@ -1,5 +1,12 @@
 // Reduce - Objects
 // cart example
+// Reduce
+// iterates, callback function
+// reduces to a single value - number, array, object
+// 1st parameter ('acc') - total of all calculations
+// 2nd parameter ('curr') - current iteration/value
+// !always return total the first parameter
+
 const cart = [
   {
     title: "Samsung Galaxy S7",
@@ -25,6 +32,7 @@ const cart = [
 
 let { totalItems, cartTotal } = cart.reduce(
   (total, cartItem) => {
+    console.log(total);
     const { amount, price } = cartItem;
     // count items
     total.totalItems += amount;
@@ -40,6 +48,7 @@ let { totalItems, cartTotal } = cart.reduce(
 cartTotal = parseFloat(cartTotal.toFixed(2));
 // console.log(total)
 console.log(totalItems, cartTotal);
+
 
 
 
@@ -85,3 +94,20 @@ const totalRevenue = orders.reduce((accumulator, order) => {
 }, 0);
 
 console.log(totalRevenue); // Output: 3250
+
+
+const staff = [
+  { name: 'bob', age: 20, position: 'developer', salary: 200 },
+  { name: 'peter', age: 25, position: 'designer', salary: 300 },
+  { name: 'susy', age: 30, position: 'the boss', salary: 400 },
+  { name: 'anna', age: 35, position: 'intern', salary: 10 },
+];
+
+const dailyTotal = staff.reduce((total, person) => {
+  console.log(`Total ${total}`);
+  console.log(`Current ${person.salary}`);
+  total += person.salary;
+  return total;
+}, 0);
+
+console.log(dailyTotal);

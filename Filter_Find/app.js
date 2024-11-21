@@ -11,7 +11,7 @@ const people = [
 
 
 
-// filter
+// !filter
 const youngPeople = people.filter((person) =>  person.age >= 25);
 console.log(youngPeople);
 
@@ -22,9 +22,7 @@ const seniorDevs = people.filter((item) => item.position === 'senior dev');
 console.log(seniorDevs);
 
 
-
-
-// find
+// !find
 const peter = people.find((person) => person.age === 25);
 console.log(peter);
 // no match

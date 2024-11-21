@@ -14,7 +14,7 @@ const [john, peter, ,anna, kelly, susan] = friends;
 console.log(john, peter);
 console.log(john, peter, anna, kelly);
 console.log(john, peter, anna, kelly, susan);
-
+// susan which is the last item won't find any values left so it'll display undefined
 
 // Swap Variables
 
@@ -28,8 +28,3 @@ let second = 'john';
 [second, first] = [first, second];
 
 console.log(first, second);
-
-const result = document.querySelector('.result');//target the div result
-result.innerHTML = friends.map((el) => {
-  return `<button>${el}</button>`;
-}).join('');

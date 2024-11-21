@@ -1,4 +1,4 @@
-// faster/easier way to access/unpack values from arrays
+// faster/easier way to access/unpack values from objects
 
 const bob = {
   first: 'bob',
