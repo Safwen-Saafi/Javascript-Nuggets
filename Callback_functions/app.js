@@ -1,7 +1,7 @@
 function makeUppercase(value) {
   console.log(value.toUpperCase())
 }
-// makeUppercase('peter')
+makeUppercase('peter')
 
 function reverseString(value) {
   console.log(value.split('').reverse().join(''))
@@ -13,5 +13,5 @@ function handleName(name, cb) {
   cb(fullName)
 }
 
-// handleName('peter', makeUppercase)
-// handleName('peter', reverseString)
+handleName('peter', makeUppercase)
+handleName('peter', reverseString)
