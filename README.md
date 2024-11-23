@@ -1,6 +1,7 @@
 # **JavaScript Nuggets**
 
-![JavaScript Nuggets](./readme-assets/js-nuggets-banner.png)
+
+![image](https://github.com/user-attachments/assets/47da1b02-b49c-432c-82e7-8da7a1f73f21)
 
 A collection of JavaScript concepts, methods, and principles based on **Coding Addict's YouTube tutorials** by **John Smilga**. Each folder corresponds to a video explaining a specific feature or concept in JavaScript.
 
