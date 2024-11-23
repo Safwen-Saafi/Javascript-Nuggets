@@ -1,7 +1,9 @@
 # **JavaScript Nuggets**
 
 
-![image](https://github.com/user-attachments/assets/47da1b02-b49c-432c-82e7-8da7a1f73f21)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/47da1b02-b49c-432c-82e7-8da7a1f73f21" alt="image" width="400"/>
+</p>
 
 A collection of JavaScript concepts, methods, and principles based on **Coding Addict's YouTube tutorials** by **John Smilga**. Each folder corresponds to a video explaining a specific feature or concept in JavaScript.
 
